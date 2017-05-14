@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+        <link rel="icon" href="/favicon.png" type="image/x-con">
+        <title>ES2015, ES2016</title>
+    </head>
+    <body>
+        <div id="greet"></div>
+        <script src="node_modules/systemjs/dist/system.js"></script>
+        <script>
+            System.config({
+                meta: {
+                    format: "amd"
+                },
+                "defaultJSExtensions": true
+            });
+
+            System.import("dist/ts/main.js").then(function(m) {
+                var people = m.people;
+                for(var i=0; i< people.length; i++) {
+                    document.getElementById("greet").innerHTML += "<h1>Typescript: " + people[i].toString() + "</h1>";
+                }
+            });
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,1 @@
+{"version":3,"file":"greeter.js","sourceRoot":"","sources":["../../src/ts/01-modules/greeter.ts"],"names":[],"mappings":";;;IAAA;QACW,MAAM,CAAC,OAAO;YACjB,IAAI,WAAW,GAAG,IAAI,IAAI,EAAE,CAAC,QAAQ,EAAE,CAAC;YACxC,MAAM,CAAC,OAAO,GAAG,CAAC,WAAW,GAAC,EAAE,GAAG,SAAS,GAAG,WAAW,GAAC,EAAE,GAAG,WAAW,GAAG,SAAS,CAAC,CAAA;QAC5F,CAAC;KACJ;IALD,0BAKC"}
